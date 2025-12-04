@@ -14,7 +14,7 @@ await page.goto('file:///Users/mauricioarango/documents/programmer/proyectos/cur
 // Genera el PDF
 await page.pdf({
     path: 'Hoja_de_Vida_Mauricio_Arango.pdf',
-    format: 'A4',
+    format: 'letter',
     printBackground: true
 });
 

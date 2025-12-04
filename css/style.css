@@ -172,7 +172,7 @@
     MODO IMPRESIÓN PDF
     -----------------------*/
     @page {
-    size: A4;
+    size: letter;
     margin: 25mm;
     }
 
